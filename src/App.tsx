@@ -100,7 +100,7 @@ function App() {
             </div>
           )
         }
-        <button onClick={() => {}} className="invoice-btn"><Envelope /> Send Invoice</button>
+        <button onClick={() => window.location.reload()} className="invoice-btn"><Envelope /> Send Invoice</button>
       </div>
     </>
   )
