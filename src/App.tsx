@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Envelope from "./assets/svg";
 
 type Task = {
   job: string;
@@ -90,15 +91,16 @@ function App() {
         {total <= 0 ?  (
             <div className="body-text">
               <div></div>
-              <div>$0</div>
+              <div className="init-total">$0</div>
             </div>
           ) : (
             <div className="body-text">
-              <p>We accept cash, credit card, or PayPal</p>
-              <div>${total}</div>
+              <p className="note-text">We accept cash, credit card, or PayPal</p>
+              <div className="total">${total}</div>
             </div>
           )
         }
+        <button onClick={() => {}} className="invoice-btn"><Envelope /> Send Invoice</button>
       </div>
     </>
   )

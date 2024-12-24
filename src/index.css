@@ -126,7 +126,6 @@ h2 {
   font-weight: 700;
   font-size: .75rem;
   padding-top: 1.25rem;
-  margin-bottom: 1rem;
 }
 
 .tasks {
@@ -166,4 +165,42 @@ h2 {
   cursor: pointer;
 }
 
+.note-text {
+  font-size: .75rem;
+  font-weight: 400;
+  color: #4A4E74;
+}
 
+.total {
+  font-weight: 700;
+  font-size: 2.25rem;
+  color: #4A4E74;
+  margin: 0;
+}
+
+.init-total {
+  font-weight: 700;
+  font-size: 2.25rem;
+  margin: 0;
+}
+
+.invoice-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 2rem;
+  background-color: #3770ED;
+  border: none;
+  border-radius: 8px;
+  padding: .5rem 1rem;
+  font-weight: 500;
+}
+
+.invoice-btn:hover {
+  cursor: pointer;
+}
+
+.invoice-btn:active {
+  background-color: #0284C7;
+}
